@@ -68,19 +68,19 @@ Taking ``Create Table`` as a example,
      'table.type' = 'MERGE_ON_READ' -- this creates a MERGE_ON_READ table, by default is COPY_ON_WRITE
    );
 
-Taking ``Query Data`` as a example,
+Taking ``Query Data`` as an example,
 
 .. code-block:: sql
 
    SELECT * FROM t1;
 
-Taking ``Insert and Update Data`` as a example,
+Taking ``Insert and Update Data`` as an example,
 
 .. code-block:: sql
 
    INSERT INTO t1 VALUES (1, 'Lucas' , 2.71828);
 
-Taking ``Streaming Query`` as a example,
+Taking ``Streaming Query`` as an example,
 
 .. code-block:: sql
 
